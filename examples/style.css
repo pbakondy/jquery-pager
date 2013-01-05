@@ -1,0 +1,113 @@
+body {
+	font: normal 14px/23px Arial, Helvetica, sans-serif;
+	color: #6A6A6A;
+	padding: 20px;
+}
+h1 {
+	margin: 0 0 30px;
+}
+h2 {
+	margin: 0 0 10px;
+}
+p {
+	margin: 0 0 10px;
+}
+a {
+	color: #00A1DE;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+.article-list {
+	width: 600px;
+}
+.item {
+	border-bottom: 1px dashed #6A6A6A;
+	margin: 0 0 20px;
+	padding: 0 10px;
+}
+.item.last {
+	border-bottom: none;
+}
+
+ul.pager {
+	list-style: none;
+	clear: both;
+	border-bottom: 2px solid #00A1DE;
+	background-color: #F0F0F0;
+	padding: 0;
+	text-align: center;
+}
+ul.pager li {
+	display: inline-block;
+	padding: 0px;
+}
+ul.pager li a {
+	display: inline-block;
+	padding: 0px 15px 0px 15px;
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 52px;
+}
+ul.pager li a:hover {
+	text-decoration: none;
+	background-color: #dbe0da;
+}
+ul.pager li.active a {
+	background-color: #fff;
+}
+ul.pager li.prev {
+	float: left;
+	width: 130px;
+	height: 52px;
+}
+ul.pager li.prev a {
+	float: left;
+	display: block;
+	font-weight: normal;
+	padding: 0px 10px;
+}
+ul.pager li.next a {
+	float: right;
+	display: block;
+	font-weight: normal;
+	padding: 0px 10px;
+}
+ul.pager li.next {
+	float: right;
+	width: 130px;
+	height: 52px;
+}
+ul.pager li.empty span {
+	padding: 0px 15px 0px 15px;
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 52px;
+	display: inline-block;
+}
+ul.pager li.prev a:hover,
+ul.pager li.next a:hover {
+	text-decoration: none;
+	background-color: #dbe0da;
+}
+ul.pager li span.dots {
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 52px;
+	padding: 0px 2px;
+}
+ul.pager li.prev.short,
+ul.pager li.next.short {
+	width: 50px;
+	height: 52px;
+}
+ul.pager li.prev.short a,
+ul.pager li.next.short a {
+	padding: 0px 20px;
+	background: none;
+}
+ul.pager li.prev.short a:hover,
+ul.pager li.next.short a:hover {
+	background-color: #dbe0da;
+}
